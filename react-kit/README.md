@@ -18,3 +18,4 @@ it includes
 - pages
 - react-helment-async
 - disable react dev tools in production
+- react hot toast

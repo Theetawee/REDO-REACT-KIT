@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import { RootLayout } from "./layouts";
 import { lazy } from "react";
+import { Toaster } from "react-hot-toast";
+import ErrorFallback from "@components/ErrorFallback";
 
 const Homepage = lazy(() => import("./pages/HomePage"));
 
@@ -18,7 +20,12 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <ErrorFallback>
+      <RouterProvider router={router} />
+      <Toaster />
+    </ErrorFallback>
+  );
 };
 
 export default App;
