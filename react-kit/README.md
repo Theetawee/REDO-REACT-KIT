@@ -16,3 +16,5 @@ it includes
 - Layout component
 - Components
 - pages
+- react-helment-async
+- disable react dev tools in production
