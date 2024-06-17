@@ -36,7 +36,7 @@ Redo React-Kit is a comprehensive boilerplate designed to help you set up a mode
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/redo-react-kit.git
+    git clone https://github.com/Theetawee/REDO-REACT-KIT.git
     ```
 
 2. **Navigate to the project directory:**
